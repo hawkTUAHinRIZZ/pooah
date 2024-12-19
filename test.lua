@@ -21,7 +21,7 @@ xpcall(function()
 		["Duration"] = 5;
 	})
 	
-	local Shared = loadstring(game:HttpGet("https://raw.githubusercontent.com/withohiogyattirizz/shared/refs/heads/main/skibidi.lua", true))
+	local Shared = loadstring(game:HttpGet("https://raw.githubusercontent.com/withohiogyattirizz/shared/refs/heads/main/skibidi.lua", true))()
 	
 	StarterGui:SetCore("SendNotification", {
 		["Title"] = "DOWNLOADING CONVERTER LIBRARY";
@@ -29,7 +29,7 @@ xpcall(function()
 		["Duration"] = 5;
 	})
 	
-	local Converter = loadstring(game:HttpGet("https://raw.githubusercontent.com/withohiogyattirizz/tester/refs/heads/main/test.lua", true))
+	local Converter = loadstring(game:HttpGet("https://raw.githubusercontent.com/withohiogyattirizz/tester/refs/heads/main/test.lua", true))()
 	
 	local ChatDB = false
 	
